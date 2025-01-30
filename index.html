@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Website</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container bg-[#fff]">
+        <div class="header flex items-center justify-between px-6">
+            <div class="logo flex items-center justify-ceter  ">
+                <img src="img/logo1-01.png" class="w-[60px]" alt="">
+                <span class="text-2xl font-bold">Furniro</span>
+            </div>
+            <div class="navbar flex gap-5">
+                <a href="#" class="text-xl text-red-500">Home</a>
+                <a href="#" class="text-xl">Shop</a>
+                <a href="#" class="text-xl">About</a>
+                <a href="#" class="text-xl">Contact</a>
+            </div>
+            <div class="icons flex gap-5">
+                <i class="fa-regular fa-user"></i>
+                <i class="fa-solid fa-search"></i>
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+        </div>
+        <div class="flex justify-end items-center pr-[100px] hero bg-[url(img/hero.jpg)] bg-center bg-cover w-[100%] h-[90vh] rounded-2 " >
+            <div class="w-[520px] bg-[#fff3E3] p-7 space-y-3 flex flex-col items-start drop-shadow-xl shadow-gray-500">
+                <div class="newArrival text-xl font-semibold">New Arrival</div>
+                <div class="discover text-6xl font-bold text-[#b88e2f]">Discover Our New Collection</div>
+                <p class="text-lg">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates consequatur nesciunt minus placeat.</p>
+                <button class="pointer-events-autorounded-md bg-[#b88e2f] w-[150px] h-[50px] px-3 py-2 text-[1.15rem]/5 font-semibold text-white hover:bg-indigo-500">BUY NOW</button>
+            </div>
+        </div>
+        <div class="browse w-[100%] py-15 bg-[#fff]">
+            <h3 class="text-center text-3xl text-gray-700 font-bold bg-[#fff]">Browse The Range</h3>
+            <div class="text-center text-lg text-gray-500  mx-auto bg-[#fff]">Lorem ipsum dolor sit amet consectetur adipisicing.</div>
+        </div>
+        <div class="browse-images flex justify-center gap-5">
+            <div class="browse-image w-[320px] h-[450px] bg-no-repeat bg-cover bg-[url(img/browse1.png)] drop-shadow-2xl shadow-gray-900 rounded-xl flex justify-center items-end pb-4">
+                <button class="pointer-events-autorounded-md bg-[#b88e2f] w-[150px] h-[50px] px-3 py-2 text-[1.15rem]/5 font-semibold text-white hover:bg-indigo-500">BUY NOW</button>
+            </div>
+            <div class="browse-image w-[320px] h-[450px] bg-no-repeat bg-cover bg-[url(img/browse2.png)] drop-shadow-2xl shadow-gray-900 rounded-xl flex justify-center items-end pb-4">
+                <button class="pointer-events-autorounded-md bg-[#b88e2f] w-[150px] h-[50px] px-3 py-2 text-[1.15rem]/5 font-semibold text-white hover:bg-indigo-500">BUY NOW</button>
+            </div>
+            <div class="browse-image w-[320px] h-[450px] bg-no-repeat bg-cover bg-[url(img/browse3.png)] drop-shadow-2xl shadow-gray-900 rounded-xl flex justify-center items-end pb-4">
+                <button class="pointer-events-autorounded-md bg-[#b88e2f] w-[150px] h-[50px] px-3 py-2 text-[1.15rem]/5 font-semibold text-white hover:bg-indigo-500">BUY NOW</button>
+            </div>
+        </div>
+        <h1 class="text-center font-bold text-4xl text-gray-700 py-12">Our Products</h1>
+        <div class="flex justify-center flex-wrap gap-5">
+            <div class="product bg-gray-50 pb-3 w-[240px] border-gray-300 border-solid border rounded-sm overflow-hidden drop-shadow-xl shadow-gray-500">
+                <div class="product-image bg-[url(img/product.png)] bg-cover bg-center basis-auto h-[150px]"></div>
+                <div class="product-details p-3 flex flex-col gap-2">
+                    <div class="font-bold text-2xl">Stylish Chair</div>
+                    <p class=" text-md text-gray-600">Stylish Coffee Chair</p>
+                    <div class="price flex justify-between items-end">
+                        <span class=" text-xl">Rp 2.500.000</span>
+                        <span class="line-through text-md text-gray-300 text-sm">Rp 3.500.000</span>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="product bg-gray-50 pb-3 w-[240px] border-gray-300 border-solid border rounded-sm overflow-hidden drop-shadow-xl shadow-gray-500">
+                <div class="product-image bg-[url(img/product1.png)] bg-cover bg-center basis-auto h-[150px]"></div>
+                <div class="product-details p-3 flex flex-col gap-2">
+                    <div class="font-bold text-2xl">Stylish Chair</div>
+                    <p class=" text-md text-gray-600">Stylish Coffee Chair</p>
+                    <div class="price flex justify-between items-end">
+                        <span class=" text-xl">Rp 2.500.000</span>
+                        <span class="line-through text-md text-gray-300 text-sm">Rp 3.500.000</span>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="product bg-gray-50 pb-3 w-[240px] border-gray-300 border-solid border rounded-sm overflow-hidden drop-shadow-xl shadow-gray-500">
+                <div class="product-image bg-[url(img/product2.png)] bg-cover bg-center basis-auto h-[150px]"></div>
+                <div class="product-details p-3 flex flex-col gap-2">
+                    <div class="font-bold text-2xl">Stylish Chair</div>
+                    <p class=" text-md text-gray-600">Stylish Coffee Chair</p>
+                    <div class="price flex justify-between items-end">
+                        <span class=" text-xl">Rp 2.500.000</span>
+                        <span class="line-through text-md text-gray-300 text-sm">Rp 3.500.000</span>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="product bg-gray-50 pb-3 w-[240px] border-gray-300 border-solid border rounded-sm overflow-hidden drop-shadow-xl shadow-gray-500">
+                <div class="product-image bg-[url(img/product3.jpg)] bg-cover bg-center basis-auto h-[150px]"></div>
+                <div class="product-details p-3 flex flex-col gap-2">
+                    <div class="font-bold text-2xl">Stylish Chair</div>
+                    <p class=" text-md text-gray-600">Stylish Coffee Chair</p>
+                    <div class="price flex justify-between items-end">
+                        <span class=" text-xl">Rp 2.500.000</span>
+                        <span class="line-through text-md text-gray-300 text-sm">Rp 3.500.000</span>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="product bg-gray-50 pb-3 w-[240px] border-gray-300 border-solid border rounded-sm overflow-hidden drop-shadow-xl shadow-gray-500">
+                <div class="product-image bg-[url(img/product4.png)] bg-cover bg-center basis-auto h-[150px]"></div>
+                <div class="product-details p-3 flex flex-col gap-2">
+                    <div class="font-bold text-2xl">Stylish Chair</div>
+                    <p class=" text-md text-gray-600">Stylish Coffee Chair</p>
+                    <div class="price flex justify-between items-end">
+                        <span class=" text-xl">Rp 2.500.000</span>
+                        <span class="line-through text-md text-gray-300 text-sm">Rp 3.500.000</span>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="product bg-gray-50 pb-3 w-[240px] border-gray-300 border-solid border rounded-sm overflow-hidden drop-shadow-xl shadow-gray-500">
+                <div class="product-image bg-[url(img/product5.png)] bg-cover bg-center basis-auto h-[150px]"></div>
+                <div class="product-details p-3 flex flex-col gap-2">
+                    <div class="font-bold text-2xl">Stylish Chair</div>
+                    <p class=" text-md text-gray-600">Stylish Coffee Chair</p>
+                    <div class="price flex justify-between items-end">
+                        <span class=" text-xl">Rp 2.500.000</span>
+                        <span class="line-through text-md text-gray-300 text-sm">Rp 3.500.000</span>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="product bg-gray-50 pb-3 w-[240px] border-gray-300 border-solid border rounded-sm overflow-hidden drop-shadow-xl shadow-gray-500">
+                <div class="product-image bg-[url(img/product6.jpg)] bg-cover bg-center basis-auto h-[150px]"></div>
+                <div class="product-details p-3 flex flex-col gap-2">
+                    <div class="font-bold text-2xl">Stylish Chair</div>
+                    <p class=" text-md text-gray-600">Stylish Coffee Chair</p>
+                    <div class="price flex justify-between items-end">
+                        <span class=" text-xl">Rp 2.500.000</span>
+                        <span class="line-through text-md text-gray-300 text-sm">Rp 3.500.000</span>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="product bg-gray-50 pb-3 w-[240px] border-gray-300 border-solid border rounded-sm overflow-hidden drop-shadow-xl shadow-gray-500">
+                <div class="product-image bg-[url(img/product7.jpg)] bg-cover bg-center bg-no-repeat basis-auto h-[150px]"></div>
+                <div class="product-details p-3 flex flex-col gap-2">
+                    <div class="font-bold text-2xl">Stylish Chair</div>
+                    <p class=" text-md text-gray-600">Stylish Coffee Chair</p>
+                    <div class="price flex justify-between items-end">
+                        <span class=" text-xl">Rp 2.500.000</span>
+                        <span class="line-through text-md text-gray-300 text-sm">Rp 3.500.000</span>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pt-30"></div>
+    </div>
+</body>
+</html>
